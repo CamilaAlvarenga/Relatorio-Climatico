@@ -1,0 +1,136 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button#save {
+    background-color: #f5f5f5;
+    border: 1px solid #333;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#pdf {
+    width: 80%;
+    margin: auto;
+}
+
+#bloco {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#coletores {
+    width: 50%;
+}
+
+#coletores span {
+    font-weight: bold;
+}
+
+#coletores select,
+#coletores input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 200px;
+}
+
+.container h2 {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.status {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.status.good {
+    background-color: #4CAF50; 
+}
+
+.info {
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #666;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#tabela {
+    overflow-x: auto;
+}
+
+#previsao {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#previsao th,
+#previsao td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#previsao th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+#previsao td {
+    background-color: #fff;
+}
+
+#previsao td:first-child {
+    font-weight: bold;
+}
